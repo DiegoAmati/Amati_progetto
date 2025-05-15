@@ -1,0 +1,28 @@
+Flask==2.3.2
+Flask-SQLAlchemy==3.0.5
+Jinja2==3.1.2
+Werkzeug==2.3.6
+itsdangerous==2.1.2
+click==8.1.3
+```
+
+---
+
+### Spiegazione
+
+1. **Flask**: Framework principale per il backend.
+2. **Flask-SQLAlchemy**: Libreria per la gestione del database SQLite.
+3. **Jinja2**: Motore di template utilizzato da Flask.
+4. **Werkzeug**: Libreria WSGI utilizzata da Flask per la gestione delle richieste HTTP.
+5. **itsdangerous**: Utilizzato da Flask per la gestione sicura dei token.
+6. **click**: Libreria per la gestione delle CLI di Flask.
+
+---
+
+### Installazione
+
+Per installare le dipendenze, esegui il seguente comando:
+
+```bash
+pip install -r requirements.txt
+```
